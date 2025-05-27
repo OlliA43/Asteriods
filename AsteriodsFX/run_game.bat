@@ -1,0 +1,3 @@
+@echo off
+mvn clean install && java --module-path mods-mvn --class-path "libs/*" --module=Core/dk.sdu.cbse.app.App
+pause
